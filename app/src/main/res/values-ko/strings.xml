@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Re:Mind</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">기록</string>
+    <string name="nav_calendar">달력</string>
+    <string name="nav_stats">통계</string>
+
+    <!-- HomeScreen -->
+    <string name="title_home">나의 마음 기록 🌱</string>
+    <string name="search_placeholder">본문, 요약, 태그 검색..</string>
+    <string name="input_placeholder">오늘 어떤 기분이었나요?</string>
+    <string name="empty_state_message">아직 기록이 없어요.\n오늘 하루를 이야기해주세요!</string>
+    <string name="search_close">검색 닫기</string>
+    <string name="search_desc">검색</string>
+    <string name="mood_guide_desc">기분 가이드</string>
+    <string name="settings_desc">설정</string>
+    
+    <!-- Filters -->
+    <string name="filter_all">전체</string>
+    <string name="filter_5">😀 5</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_notification_permission_title">알림 권한 필요 📣</string>
+    <string name="dialog_notification_permission_body">원활한 알림 수신을 위해 알림 권한 허용이 필요합니다. 설정 페이지에서 알림을 \'허용\'으로 변경해 주세요.</string>
+    <string name="dialog_exact_alarm_title">정확한 알람 권한 필요 🔔</string>
+    <string name="dialog_exact_alarm_body">원하시는 시간에 정확하게 알림을 받으려면 \'알람 및 리마인더\' 권한 허용이 필요합니다. 설정 페이지에서 \'이 앱이 알람을 설정할 수 있도록 허용\'을 켜주세요.</string>
+    <string name="action_go_to_settings">설정으로 이동</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_save">저장</string>
+    <string name="action_confirm">확인</string>
+    <string name="action_delete">삭제</string>
+    <string name="msg_toast_voice_permission">음성 인식 권한이 필요합니다</string>
+    <string name="msg_toast_settings_error">설정 화면을 열 수 없습니다.</string>
+    <string name="msg_toast_exact_alarm_denied">정확한 알람 권한이 거부되었습니다.</string>
+
+    <!-- DiaryItem -->
+    <string name="status_analyzing">AI 분석 중...</string>
+    <string name="action_retry">재시도</string>
+    <string name="menu_edit">수정</string>
+    <string name="menu_delete">삭제</string>
+    <string name="dialog_edit_title">일기 수정</string>
+    <string name="dialog_edit_placeholder">내용을 입력하세요</string>
+    <string name="dialog_delete_title">일기 삭제</string>
+    <string name="dialog_delete_body">정말 이 일기를 삭제하시겠습니까?</string>
+    
+    <!-- Share Format -->
+    <string name="share_summary_prefix">📌 요약: </string>
+    <string name="share_diary_prefix">📝 일기:\n</string>
+    <string name="share_tags_prefix">🏷️ 태그: </string>
+    <string name="share_ai_prefix">🤖 AI 조언:\n</string>
+
+    <!-- Stats -->
+    <string name="title_stats">통계</string>
+    
+    <!-- Calendar -->
+    <string name="calendar_month_label">%1$d년 %2$d월</string>
+    <string name="calendar_records_title">%d월의 기록 📅</string>
+    
+    <!-- Export / Import -->
+    <string name="msg_toast_export_success">데이터 내보내기를 성공했습니다.</string>
+    <string name="msg_toast_export_failure">데이터 내보내기에 실패했습니다.</string>
+    <string name="msg_toast_import_success">데이터 불러오기를 성공했습니다.</string>
+    <string name="msg_toast_import_failure">데이터 불러오기에 실패했습니다.</string>
+    
+    <!-- Settings Dialog -->
+    <string name="settings_title">알림 설정 ⚙️</string>
+    <string name="settings_reminder_daily">매일 알림 받기</string>
+    <string name="settings_reminder_time">알림 시간 선택</string>
+    <string name="settings_period_am">오전</string>
+    <string name="settings_period_pm">오후</string>
+    <string name="settings_font_title">글꼴 설정</string>
+    <string name="settings_font_size">글꼴 크기</string>
+    <string name="settings_font_size_small">작게</string>
+    <string name="settings_font_size_medium">보통</string>
+    <string name="settings_font_size_large">크게</string>
+    <string name="settings_font_default">기본</string>
+    <string name="settings_font_serif">명조</string>
+    <string name="settings_font_gothic">고딕</string>
+    <string name="settings_font_handwriting">필기</string>
+    <string name="settings_data_title">데이터 관리</string>
+    <string name="settings_backup_json">백업(JSON)</string>
+    <string name="settings_restore_json">복구(JSON)</string>
+    <string name="settings_export_txt">내보내기(TXT)</string>
+    <string name="settings_export_pdf">내보내기(PDF)</string>
+    <string name="settings_language_title">언어 / Language</string>
+    <string name="settings_language_system">시스템 기본값</string>
+    <string name="settings_language_korean">한국어</string>
+    <string name="settings_language_english">English</string>
+</resources>
