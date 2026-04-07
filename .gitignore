@@ -18,3 +18,13 @@ curl_config.txt
 download_font.ps1
 download_font.py
 *.zip
+CLAUDE.md
+app/release/
+build-keystore/
+*.aab
+*.apk
+*.keystore
+*.jks
+rename_fonts.py
+rename_fonts_v2.py
+todo.md

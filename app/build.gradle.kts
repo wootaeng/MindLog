@@ -39,6 +39,7 @@ android {
             manifestPlaceholders["ADMOB_APP_ID"] = localProperties.getProperty("DEBUG_ADMOB_APP_ID").toString()
         }
         release {
+            manifestPlaceholders += mapOf()
             isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -48,6 +49,7 @@ android {
             buildConfigField("String", "ADMOB_INTERSTITIAL_ID", "\"${localProperties.getProperty("RELEASE_ADMOB_INTERSTITIAL_ID")}\"")
             buildConfigField("String", "ADMOB_NATIVE_ID", "\"${localProperties.getProperty("RELEASE_ADMOB_NATIVE_ID")}\"")
             buildConfigField("String", "ADMOB_OPENING_ID", "\"${localProperties.getProperty("RELEASE_ADMOB_OPENING_ID")}\"")
+            signingConfig = signingConfigs.getByName("debug")
             manifestPlaceholders["ADMOB_APP_ID"] = localProperties.getProperty("RELEASE_ADMOB_APP_ID").toString()
         }
     }
